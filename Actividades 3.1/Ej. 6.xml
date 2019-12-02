@@ -2,6 +2,6 @@
 <mundiales-de-futbol>
     <mundial>
         <fecha_mundial>1982</fecha_mundial>
-        <pais pais="España" />
+        <pais nombre="España"/>
     </mundial>
 </mundiales-de-futbol>
