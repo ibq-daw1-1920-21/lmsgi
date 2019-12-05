@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<curso xmlns:n1="http://www.lmsgi.net/IES_Numero_1" xmlns:cia="http://www.lmsgi.net/C.I.F.P_de_Áviles"
-    xmlns:df="http://www.lmsgi.net/IES_Doctor_Fleming" xmlns:bdq="http://www.lmsgi.net/Bernardo_de_Quirós"
-    xmlns:cisis="http://www.lmsgi.net/CIFP_Sectores_Industrial_y_de_Servicios ">
+<curso xmlns:n1="http://www.lmsgi.net/iesnumero1" xmlns:cia="http://www.lmsgi.net/cifpdeaviles"
+    xmlns:df="http://www.lmsgi.net/iesdoctorfleming" xmlns:bdq="http://www.lmsgi.net/bernardodequiros"
+    xmlns:cisis="http://www.lmsgi.net/cifpsectoresindustrialydeservicios ">
     <Localidad localidad="Gijon" />
     <n1:Alumnos>
         <n1:Alumno>
