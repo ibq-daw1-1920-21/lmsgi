@@ -9,7 +9,7 @@
             <thu:Correo>
             <thu:titulo>titulo</thu:titulo>
             <thu:cuerpo>cuerpo</thu:cuerpo>
-            </thu:correo>
+            </thu:Correo>
             <thu:archivos>archivos
                 <opcion tipo=".txt" />
                 <opcion tipo="imagen" />

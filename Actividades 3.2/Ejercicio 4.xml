@@ -4,7 +4,7 @@
 	xmlns:cia="http://www.lmsgi.net/cifpdeaviles"
 	xmlns:df="http://www.lmsgi.net/iesdoctorfleming"
 	xmlns:bdq="http://www.lmsgi.net/bernardodequiros"
-	xmlns:cisis="http://www.lmsgi.net/cifpsectoresindustrialydeservicios ">
+	xmlns:cisis="http://www.lmsgi.net/cifpsectoresindustrialydeservicios">
 	<Localidad localidad="Gijon" />
 	<n1:Alumnos>
 		<n1:Alumno>
