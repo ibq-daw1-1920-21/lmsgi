@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso xmlns:n1="http://www.lmsgi.net/IES_Numero_1" xmlns:cia="http://www.lmsgi.net/C.I.F.P_de_Áviles"
+    xmlns:df="http://www.lmsgi.net/IES_Doctor_Fleming" xmlns:bdq="http://www.lmsgi.net/Bernardo_de_Quirós"
+    xmlns:cisis="http://www.lmsgi.net/CIFP_Sectores_Industrial_y_de_Servicios ">
+    <Localidad localidad="Gijon" />
+    <n1:Alumnos>
+        <n1:Alumno>
+            <n1:Apellidos>García Pérez</n1:Apellidos>
+            <n1:Nombre>Ana</n1:Nombre>
+        </n1:Alumno>
+        <n1:Alumno>
+            <n1:Apellidos>Fernández Uría</n1:Apellidos>
+            <n1:Nombre>José Luis</n1:Nombre>
+        </n1:Alumno>
+        <n1:Alumno>
+            <n1:Apellidos>Díaz del Olmo</n1:Apellidos>
+            <n1:Nombre>Belén </n1:Nombre>
+        </n1:Alumno>
+        <n1:Alumno>
+            <n1:Apellidos>Rodríguez Marqués</n1:Apellidos>
+            <n1:Nombre>Lucía</n1:Nombre>
+        </n1:Alumno>
+        <n1:Alumno>
+            <n1:Apellidos>Nava Domínguez</n1:Apellidos>
+            <n1:Nombre>Fernando</n1:Nombre>
+        </n1:Alumno>
+        <n1:Alumno>
+            <n1:Apellidos>García González</n1:Apellidos>
+            <n1:Nombre>Eva </n1:Nombre>
+        </n1:Alumno>
+        <n1:Alumno>
+            <n1:Apellidos>Criado Martínez</n1:Apellidos>
+            <n1:Nombre>Bernardo</n1:Nombre>
+        </n1:Alumno>
+    </n1:Alumnos>
+    <cisis:Alumnos>
+        <cisis:Alumno>
+            <cisis:Apellidos>Álvarez Cortés</cisis:Apellidos>
+            <cisis:Nombre>Óscar</cisis:Nombre>
+        </cisis:Alumno>
+        <cisis:Alumno>
+            <cisis:Apellidos>Gómez Lamela</cisis:Apellidos>
+            <cisis:Nombre>Javier</cisis:Nombre>
+        </cisis:Alumno>
+    </cisis:Alumnos>
+    <Localidad localidad="Mieres" />
+    <bdq:Alumnos>
+        <bdq:Alumno>
+            <bdq:Apellidos>García del Riego</bdq:Apellidos>
+            <bdq:Nombre>Clara</bdq:Nombre>
+        </bdq:Alumno>
+        <bdq:Alumno>
+            <bdq:Apellidos>Rodríguez Nieto</bdq:Apellidos>
+            <bdq:Nombre>Luciano</bdq:Nombre>
+        </bdq:Alumno>
+    </bdq:Alumnos>
+    <Localidad localidad="Oviedo">
+        <df:alumnos>
+            <df:Alumno>
+                <df:Apellidos>González Rubiera</df:Apellidos>
+                <df:Nombre>Pedro</df:Nombre>
+            </df:alumno>
+        </df:alumnos>
+    <Localidad localidad="<Avilés>">
+        <cia:Alumnos>
+            <cia:Alumno>
+                <cia:Apellidos>Martín López</cia:Apellidos>
+                <cia:Nombre>Luisa </cia:Nombre>
+            </cia:Alumno>
+            <cia:Alumno>
+                <cia:Apellidos>Viejo Pérez</cia:Apellidos>
+                <cia:Nombre>Ernesto </cia:Nombre>
+            </cia:Alumno>
+        </cia:Alumnos>
+</curso>

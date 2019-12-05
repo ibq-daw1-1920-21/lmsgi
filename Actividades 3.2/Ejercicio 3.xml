@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pizzeria xmlns:bar="Barbacoa" xmlns:hawa="Hawaiana" xmlns:que="4quesos" xmlns:mar="Margarita">
+    <pizzas>
+        <bar:pizza>
+            <bar:opcion tipo="Barbacoa" precio="8" />
+            <bar:ingredientes>
+                Salsa Barbacoa,
+                Pollo,
+                Bacon,
+                Jamón,
+                Ternera
+            </bar:ingredientes>
+        </bar:pizza>
+        <hawa:pizza>
+            <hawa:opcion tipo="Hawaiana" precio="7" />
+            <hawa:ingredientes>
+                Tomate,
+                Mozarella,
+                Jamón,
+                Piña,
+                Queso
+            </hawa:ingredientes>
+        </hawa:pizza>
+        <que:pizza>
+            <que:opcion tipo="4 quesos" precio="7" />
+            <que:ingredientes>
+                Tomate
+                Mezcla de 4 quesos
+            </que:ingredientes>
+        </que:pizza>
+        <mar:pizza>
+            <mar:opcion tipo="Margarita" precio="6" />
+            <mar:ingredientes>
+                Tomate,
+                Jamón,
+                Queso
+            </mar:ingredientes>
+        </mar:pizza>
+    </pizzas>
+</pizzeria>

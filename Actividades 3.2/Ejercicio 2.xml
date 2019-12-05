@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <thu:document xmlns:thu="https://www.thunderbird.net">
+        <thu:mensaje>
+            <thu:destinatarios>destinatarios
+                <opcion receptores="uno" />
+                <opcion receptores="varios" />
+            </thu:destinatarios>
+            <thu:Correo>
+            <thu:titulo>titulo</thu:titulo>
+            <thu:cuerpo>cuerpo</thu:cuerpo>
+            </thu:correo>
+            <thu:archivos>archivos
+                <opcion tipo=".txt" />
+                <opcion tipo="imagen" />
+                <opcion tipo=".rar" />
+            </thu:archivos>
+        </thu:mensaje>
+    </thu:document>
+    <out:document xmlns:out="https://outlook.live.com">
+        <out:mensaje>
+            <out:destinatarios>destinatarios
+                <opcion receptores="uno" />
+                <opcion receptores="varios" />
+            </out:destinatarios>
+            <out:Correo>
+            <out:titulo>titulo</out:titulo>
+            <out:cuerpo>cuerpo</out:cuerpo>
+            </out:Correo>
+            <out:archivos>archivos
+                <opcion tipo=".txt" />
+                <opcion tipo="imagen" />
+                <opcion tipo=".rar" />
+            </out:archivos>
+        </out:mensaje>
+    </out:document>
+    <evo:document xmlns:evo="https://www.genbeta.com/windows/evolution-para-windows">
+        <evo:mensaje>
+            <evo:destinatarios>destinatarios
+                <opcion receptores="uno" />
+                <opcion receptores="varios" />
+            </evo:destinatarios>
+            <evo:Correo>
+            <evo:titulo>titulo</evo:titulo>
+            <evo:cuerpo>cuerpo</evo:cuerpo>
+            </evo:Correo>
+            <evo:archivos>archivos
+                <opcion tipo=".txt" />
+                <opcion tipo="imagen" />
+                <opcion tipo=".rar" />
+            </evo:archivos>
+        </evo:mensaje>
+    </evo:document> 
+</emails>
