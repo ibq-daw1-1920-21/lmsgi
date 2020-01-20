@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE contabilidad [
-<!ELEMENTcontabilidad (ingreso | gasto)>
+<!ELEMENT contabilidad (transaccion*)>
+<!ELEMENT transaccion (ingreso|gasto)>
+<!ELEMENT ingreso (apunte)>
+<!ELEMENT gasto (apunte)>
+<!ELEMENT apunte (fecha, cantidad, concepto)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT cantidad (#PCDATA)>
 <!ELEMENT concepto (#PCDATA)>
 ]>
 <contabilidad>
+<transaccion>
+<ingreso>
 <apunte>
-<ingreso />
 <fecha>24 de febrero de 2019</fecha>
 <cantidad>1800,00 €</cantidad>
 <concepto>Salario</concepto>
 </apunte>
+</ingreso>
+</transaccion>
+<transaccion>
+<gasto>
 <apunte>
-<gasto />
 <fecha>28 de febrero de 2019</fecha>
 <cantidad>74,25 €</cantidad>
 <concepto>Recibo luz</concepto>
 </apunte>
+</gasto>
+</transaccion>
 </contabilidad>

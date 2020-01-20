@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE animales [
-<!ELEMENT animales (animal*)>
+<!ELEMENT animales (animal*, perro, gato)>
 <!ELEMENT animal (#PCDATA)>
+<!ELEMENT perro (#PCDATA)>
+<!ELEMENT gato (#PCDATA)>
 ]>
 
 <animales>
+<animal>Elefante mejicano</animal>
+<animal>Hipopotamo asiatico</animal>
 <perro>Caniche</perro>
-<gato>Siamés</gato>
+<gato>Siames</gato>
 </animales>

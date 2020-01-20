@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPEefemerides [
-<!ELEMENTefemerides (efemeride)>
-<!ELEMENTefemeride (fecha, hecho)>
+<!DOCTYPE efemerides [
+<!ELEMENT efemerides (efemeride*)>
+<!ELEMENT efemeride (fecha, hecho)>
 ]>
 
 <efemerides>

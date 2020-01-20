@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mensajes [
-<!ELEMENT mensajes (mensaje)>
+<!ELEMENT mensajes (mensaje*)>
+<!ELEMENT mensaje (de, para ,hora ,texto)>
 <!ELEMENT de (#PCDATA)>
 <!ELEMENT para (#PCDATA)>
 <!ELEMENT hora (#PCDATA)>
 <!ELEMENT texto (#PCDATA)>
-<!ELEMENTstrong (#PCDATA)>
 ]>
 
 <mensajes>
@@ -13,12 +13,12 @@
 <de>Pepe (pepe@example.com)</de>
 <para>Juan (juan@example.com)</para>
 <hora>28/02/2019 17:48:23,61</hora>
-<texto>¿Hola, Juan, qué haces?</texto>
+<texto>¿Hola, Juan, que haces?</texto>
 </mensaje>
 <mensaje>
 <de>Juan (juan@example.com)</de>
 <para>Pepe (pepe@example.com)</para>
 <hora>28/02/2019 17:54:20,87</hora>
-<texto>Aquí, aprendiendo <strong>XML</strong></texto>
+<texto>Aqui, aprendiendo XML</texto>
 </mensaje>
 </mensajes>

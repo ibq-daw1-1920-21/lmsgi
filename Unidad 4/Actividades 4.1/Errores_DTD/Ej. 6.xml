@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPEpaises [
-<!ELEMENTpais (nombre, unionEuropea)>
-<!ELEMENT nombre EMPTY>
-<!ELEMENTunionEuropea EMPTY>
+<!DOCTYPE paises [
+<!ELEMENT paises (pais*)>
+<!ELEMENT pais (nombre, unionEuropea?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT unionEuropea EMPTY>
 ]>
+
 <paises>
 <pais>
 <nombre>España</nombre>

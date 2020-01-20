@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE colores [
 <!ELEMENT colores (color*)>
-<!ELEMENTnombreSvg (#PCDATA)>
-<!ELEMENTrgb (#PCDATA)>
-<!ELEMENTcmyk (#PCDATA)>
+<!ELEMENT color (nombreSvg, codigo)>
+<!ELEMENT nombreSvg (#PCDATA)>
+<!ELEMENT codigo (hex, rgb, cmyk)>
+<!ELEMENT hex (#PCDATA)>
+<!ELEMENT rgb (#PCDATA)>
+<!ELEMENT cmyk (#PCDATA)>
 ]>
 
 <colores>
 <color>
-<nombreSvg>Purple</nombreSvg>
+<nombreSvg>Morado</nombreSvg>
 <codigo>
-<rgb>#800080</rgb>
+<hex>#800080</hex>
+<rgb>r:128 g:0 b:128</rgb>
+<cmyk>0-100-100-50</cmyk>
 </codigo>
 </color>
 <color>
-<nombreSvg>Purple</nombreSvg>
+<nombreSvg>Verde claro</nombreSvg>
 <codigo>
-<cmyk>#00FF007F</cmyk>
+<hex>#00FF007F</hex>
+<rgb>r:0 g:255 b:0</rgb>
+<cmyk>100-0-100-0</cmyk>
 </codigo>
 </color>
 </colores>
+
