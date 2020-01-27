@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE partidos [
+<!ELEMENT partidos (partido*)>
+<!ELEMENT partido ((Local | Visitante)*)>
+<!ELEMENT Local (nombre, goles)>
+<!ELEMENT Visitante (nombre, goles)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT goles (#PCDATA)>
+]>
+
+<partidos>
+    <partido>
+        <Local>
+            <nombre>Nottingham Presa</nombre>
+            <goles>0</goles>
+        </Local>
+        <Visitante>
+            <nombre>Inter de Mitente</nombre>
+            <goles>1</goles>
+        </Visitante>
+    </partido>
+    <partido>
+        <Local>
+            <nombre>Vodka Juniors</nombre>
+            <goles>3</goles>
+        </Local>
+        <Visitante>
+            <nombre>Sparta da Risa</nombre>
+            <goles>3</goles>
+        </Visitante>
+    </partido>
+    <partido>
+        <Local>
+            <nombre>Water de Munich</nombre>
+            <goles>4</goles>
+        </Local>
+        <Visitante>
+            <nombre>Esteaua es del grifo</nombre>
+            <goles>2</goles>
+        </Visitante>
+    </partido>
+</partidos>
+

@@ -1,14 +1,15 @@
-<?xmlversion="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE inventores [
-<!ELEMENT inventores>
+<!ELEMENT inventores (inventor*)>
 <!ELEMENT inventor EMPTY>
-<!ATTLIST inventor invento CDATA #REQUIRED>
-<!ATTLIST inventor nombre ID #REQUIRED>
+<!ATTLIST inventor 
+nombre ID #IMPLIED
+invento CDATA #REQUIRED>
 ]>
 
 <inventores>
-<inventor nombre="Robert Adler" invento="Mando a distancia" />
-<inventor nombre="Laszlo Josef Biro" invento="Bolígrafo" />
-<inventor nombre="JosephineGarisCochran" invento="Lavaplatos" />
+<inventor nombre="Robert_Adler" invento="Mando a distancia" />
+<inventor nombre="Laszlo_Josef_Biro" invento="Bolígrafo" />
+<inventor nombre="Josephine_Garis_Cochran" invento="Lavaplatos" />
 <inventor invento="Fuego" />
 </inventores>

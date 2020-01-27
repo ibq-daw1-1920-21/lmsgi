@@ -1,8 +1,10 @@
-<?xmlversion="1.0" encoding="UTF-8"?>
-<!DOCTYPEpelicula [
-<!ELEMENTpelicula EMPTY>
-<!ATTLISTpeliculatitulo CDATA #IMPLIED>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula [
+<!ELEMENT pelicula EMPTY>
+<!ATTLIST pelicula 
+titulo CDATA #IMPLIED
+genero CDATA #IMPLIED>
 ]>
 
-<peliculatitulo="La diligencia" genero="oeste" />
+<pelicula titulo="La diligencia" genero="oeste" />
 
