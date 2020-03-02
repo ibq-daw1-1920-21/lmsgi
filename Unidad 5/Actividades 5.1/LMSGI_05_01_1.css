@@ -1,0 +1,7 @@
+
+h1 { color : #0000FF;  font-size : 32px;  font-family : Verdana; }
+h2 { color : #AA0000; font-size : 32px;  font-family : Calibri;  }
+body { color : #0000FF; font-family : Georgia; font-size : 16px;  background-color : #CCFFCC; }
+span.datos { color : #006600; }
+span.mayus { font-size: 20px; font-style: normal; }
+span.textos { color : #FFF; font-style:italic; background-color: #000;}

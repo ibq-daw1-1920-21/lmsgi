@@ -1,0 +1,5 @@
+html { width: 960px; }
+h1 { text-align: center; }
+span.c1{ float: left; width: 250px;} /* reducido tamano en 10px por que no mostraba correctamente la diferencia */
+span.c2{ float:right; width: 690px;} /* al igual que el c1, reducido en 10px por que no se muestra correctamente */
+.columna3 {float: left; width: 220px; padding:2.5px;}
